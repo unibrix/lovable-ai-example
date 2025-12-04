@@ -1,9 +1,13 @@
-## AI Playground - Loveable AI Site 
+## Lovable AI Showcase
 
-A platform that combines the power of several AI models in one convenient interface.
-AI Playground is a web platform that combines several AI models in a single interface.
-It supports text and image generation and interactive AI chats.
-All logic runs through Netlify Edge Functions and Supabase.
+A platform that showcases the power of multiple AI models within a single interface.
+Lovable AI Showcase is a web application generated with Lovable AI and further customized to demonstrate real-world use cases of modern neural networks.
+
+The site brings together text generation, image generation, and interactive AI chats — all powered by integrated AI providers such as Lovable, Gemini, and OpenAI.
+Backend logic runs on Netlify Edge Functions, while Supabase is used for logging, history, and persistent data.
+
+This project serves as an example of how AI-driven tools can be combined into a cohesive, user-friendly experience.
+
 
 **URL**: https://lucent-cocada-58b395.netlify.app/
 
@@ -20,8 +24,7 @@ All logic runs through Netlify Edge Functions and Supabase.
 
 
 <img src="./assets/Screenshot 2025-12-04 at 15.38.47.png" alt="UI Cite">
-<img src="./assets/Screenshot 2025-12-04 at 15.44.39.png" alt="UI Cite">
-<img src="./assets/Screenshot 2025-12-04 at 15.49.28.png" alt="UI Cite">
+<img src="./assets/Screenshot 2025-12-04 at 15.57.31.png" alt="UI Cite">
 
 
 ## 🧩 Architecture
@@ -40,18 +43,41 @@ Client → Edge Functions → AI Provider → Response → UI
 
 ## 🔄 Loveable Site Overview
 
-- **Generate Images** 
+- **Generate Images with AI** 
 
-<img src="./assets/Screenshot 2025-12-04 at 14.47.44.png" alt="UI Cite">
+<img src="./assets/Screenshot 2025-12-04 at 16.00.01.png" alt="UI Cite">
+
+
+- **Generate Text with AI** 
+
+<img src="./assets/Screenshot 2025-12-04 at 15.57.53.png" alt="UI Cite">
+
+
+
+- **Chat with AI** 
+
+<img src="./assets/Screenshot 2025-12-04 at 16.16.08.png" alt="UI Cite">
+
+
+- **Database CRUD Operations** 
+
+<img src="./assets/Screenshot 2025-12-04 at 16.00.14.png" alt="UI Cite">
+
+
+- **Explore GitHub** 
+
+<img src="./assets//Screenshot 2025-12-04 at 16.00.28.png" alt="UI Cite">
 
 
 ## 🚀 Local Development
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
+
 git clone <YOUR_GIT_URL>
 
 # Step 2: Navigate to the project directory.
+
 cd <project_name>
 
 # Step 3: Install dependencies
