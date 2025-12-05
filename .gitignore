@@ -1,0 +1,33 @@
+# Local Netlify folder
+.netlify
+# Node modules
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Vite build output
+dist/
+
+
+# Editor folders
+.vscode/
+.idea/
+
+# Cache
+.vite/
+.cache/
+.eslintcache
